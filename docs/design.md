@@ -1,4 +1,4 @@
-# Ticketmaster — High-Level System Design
+# Ticket Booking Platform — High-Level System Design
 
 A walkthrough of the classic "design a ticket booking system" problem.
 

@@ -1,4 +1,4 @@
-# Ticketmaster Clone
+# Ticket Booking Platform
 
 A backend for the classic "design a ticket booking system" problem — see
 [`docs/design.md`](docs/design.md) for the full write-up, and
