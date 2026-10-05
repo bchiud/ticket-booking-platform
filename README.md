@@ -1,7 +1,14 @@
 # Ticket Booking Platform
 
-A backend for the classic "design a ticket booking system" problem — see
-[`docs/design.md`](docs/design.md) for the full write-up, and
+A ticket booking backend built to survive on-sale spikes without selling a seat
+twice: seat holds with row locks and optimistic versioning, a Redis waiting room
+that admits buyers at a fixed rate, and idempotent payments.
+
+**Load-tested** ([results](#load-test)): **0 seats sold twice** across 37 sell-outs with
+500–5,000 buyers arriving at once, and a 5,000-buyer waiting-room spike with **0
+server errors**.
+
+See [`docs/design.md`](docs/design.md) for the full write-up, and
 [`docs/adr/`](docs/adr) for the reasoning behind key technical decisions.
 
 ## Stack

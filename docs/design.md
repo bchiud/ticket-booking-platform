@@ -1,6 +1,7 @@
 # Ticket Booking Platform — High-Level System Design
 
-A walkthrough of the classic "design a ticket booking system" problem.
+The system design behind this ticket booking backend: what it must guarantee, and how the
+booking path stays correct under on-sale spikes.
 
 ## 1. Scope & Requirements
 
